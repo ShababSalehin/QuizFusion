@@ -7,7 +7,10 @@ const SetupForm = () => {
     <main>
       <section className='quiz quiz-small'>
         <form className='setup-form'>
-          <h2>Setup Quiz</h2>
+          <h2 style={{ textAlign: 'center' }}>
+                  QuizFusion App by <span style={{ color: 'lightblue' }}>Shabab</span>
+          </h2><br/>
+          <h3>Setup Quiz</h3>
           {/* amount */}
           <div className='form-control'>
             <label htmlFor='amount'>Number of Questions</label>
